@@ -11,5 +11,5 @@ addons:
     organization: "chidgey-github"
 
 script:
-  - python ./tests/test_blackjackgame.py
+  - nosetests --with-coverage --with-xunit --cover-xml 
   - sonar-scanner
