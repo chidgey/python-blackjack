@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Rope project settings
+.ropeproject
+
+# Visual studio settings
+.vscode
+
+# SonarScanner settings
+.scannerwork
+
+# Code Coverage settings
+.coverage
+coverage.xml
+
+# Bandit security report
+bandit-report.json
+
+# Unit test report
+nosetests.xml
